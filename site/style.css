@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+/*Large Device >= 1200px, Medium 992-1199px, Small <= 991px */
+@media (min-width: 800px) {
+body {
+	background: url("StylishDheeru.png") no-repeat bottom right yellow;
+}
+div, #bottom {
+	color: indianred;
+}
+div {
+	clear: both;
+}
+li {
+	color: firebrick;
+	font-size: 20px;
+	width: 250px;
+	text-align: left;
+}
+ul > li {
+	color: fuchsia;
+}
+ol li {
+	color: darkcyan;
+}
+a {
+	color: blue;
+	font-size: 30px;
+	width: 300px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+header li {
+	list-style: none;
+}
+header a:link, header a:visited {
+	text-decoration: none;
+	background-color: skyblue;
+	opacity: .6;
+	color: blue;
+	display: block;
+	text-align: center;
+}
+header a:hover, header a:active {
+	background-color: palegreen;
+	opacity: 0.8;
+	color: purple;
+}
+h1 {
+	text-align: center;
+	font-size: 60px;
+	color: burlywood;
+}
+.green {
+	color: green;
+	font-size: 24px;
+}
+nav li {
+	color: blue;
+	font-size: 24px;
+}
+li a:nth-child(2) {
+	font-size: 40px;
+}
+div.big {
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+}
+
+a.button {
+	padding: 20px;
+	border: 5px solid darkolivegreen;
+	margin: 10px;
+	overflow: auto;
+}
+
+nav li {
+	float: left;
+	width: 15%;
+}
+}

@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Review</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Review</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1 id="top">Every tag I've learned</h1>
+<!-- This is a comment -->
 <header>This is a header 
-	<nav>This is a navigation tag</nav>
-	<a href="#bottom" title="Go to Bottom">
-		<div>Go to the bottom of the page</div>
-	</a>
+	<nav>This is a navigation tag
+		<ul> 
+			<li><a href="div-and-span.html" title="div and span" class="button">Div and Span</a></li>
+			<li><a href="headings.html" title="Stylish Dheeru" class="button">Dheeru's Wisdom</a></li>
+			<li><a href="doc-structure-before.html" title="Doc Structure Before" class="button">Simple Website</a></li>
+		</ul>
+	</nav>
 </header>
+<a href="#bottom" title="Go to Bottom">
+	<div>Go to the bottom of the page</div>
+</a>
 <h2>The tags we've learned</h2>
 <span>Span element</span>
 <div>Div element</div>
 <div>Less than sign with &lt;, greater than with &gt;, and ampersand with &amp;. Copyright is &copy;</div>
 <div>Non-breaking&nbsp;space&nbsp;prevents&nbsp;seperation</div>
 <div>Quote: &quot;This is a quote&quot;</div>
-<div> 
+<div class="big"> 
 	List using ul (unordered list) tag:
-	<ul>
+	<ul class="green">
 		<li>Mommies</li>
 		<li>Bommy</li>
 		<li>List in list
@@ -31,9 +40,9 @@
 		</li>
 	</ul>
 </div>
-<div>
+<div class="big">
 	List using ol (ordered list) tag:
-	<ol>
+	<ol class="green">
 		<li>Turn on tap
 			<ul>
 				<li>Make sure you are using hot water</li>
@@ -43,13 +52,17 @@
 		<li>Lather hands with soap</li>
 		<li>Rinse thoroughly for about 20 seconds</li>
 	</ol>
+</div>
 <section> Links: 
 	<a href="doc-structure-before.html" title="Doc Structure">See First Website</a>
+	<div>
+		<img src="StylishDheeru.png" width=483 height=334 alt="Dheeru Garu">
+	</div>
 	<a href="headings.html" title="Stylish Dheeru">
 		<div>What is modern physics? Ask Dheeru to find out!</div>
 	</a>
-	<a href="https://steamaspirations.org" target="_blank" title=STEAM Aspirations>
-		<div>External Link to STEAM Aspirations</div>
+	<a href="https://steamaspirations.org" target="_blank" title="STEAM Aspirations">
+		<div class="big">External Link to STEAM Aspirations</div>
 	</a>
 </section>
 
